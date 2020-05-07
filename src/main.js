@@ -18,6 +18,7 @@ const simplifyUrl = (url) => {
     .replace(".one", "")
     .replace(".io", "")
     .replace(".cc", "")
+    .replace(".org", "")
     .replace(/\/.*/, ""); //删除/开头的内容
 };
 
