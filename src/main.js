@@ -12,6 +12,12 @@ const simplifyUrl = (url) => {
     .replace("https://", "")
     .replace("http://", "")
     .replace("www.", "")
+    .replace("free.", "")
+    .replace(".com", "")
+    .replace(".cn", "")
+    .replace(".one", "")
+    .replace(".io", "")
+    .replace(".cc", "")
     .replace(/\/.*/, ""); //删除/开头的内容
 };
 
